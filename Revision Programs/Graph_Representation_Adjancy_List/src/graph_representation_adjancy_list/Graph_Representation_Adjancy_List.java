@@ -581,7 +581,7 @@ public class Graph_Representation_Adjancy_List {
 //        g.displayPreviousVertex();
 //        g.displayPath(7, 1);
 
-      g.BFS(1);
+//      g.BFS(1);
     
        g.DFS(5);
        System.out.println("------------------------");
