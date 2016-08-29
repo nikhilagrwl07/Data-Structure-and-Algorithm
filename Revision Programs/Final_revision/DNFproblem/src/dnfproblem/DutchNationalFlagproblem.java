@@ -2,7 +2,7 @@
 package dnfproblem;
 
 
-public class DNFproblem {
+public class DutchNationalFlagproblem {
 
    
     public static void main(String[] args) {
