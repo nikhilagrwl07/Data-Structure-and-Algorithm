@@ -101,11 +101,18 @@ public class FloydWarshallAllPairShortestPath {
     }
 
     public static void main(String args[]){
-        int[][] graph = {
-                {0,   3,   6,   15},
-                {INF, 0,  -2,   INF},
-                {INF, INF, 0,   2},
-                {1,   INF, INF, 0}
+//        int[][] graph = {
+//                {0,   3,   6,   15},
+//                {INF, 0,  2,   INF},
+//                {INF, INF, 0,   2},
+//                {1,   INF, INF, 0}
+//        };
+        
+          int[][] graph = {
+                {0,   2,   INF,   INF},
+                {INF, 0,  INF,   3},
+                {-8, INF, 0,   -3},
+                {-5,   INF, INF, 0}
         };
 
         FloydWarshallAllPairShortestPath shortestPath = new FloydWarshallAllPairShortestPath();
